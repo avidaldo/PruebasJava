@@ -9,7 +9,6 @@ public class Main {
 
         Programador programador1 = new Programador();
 
-
         /* Input */
         System.out.println("Escriba el nombre del programador :");
         String lineaNombre = sc.nextLine(); // TODO: revisar lectura de ints como chars
@@ -19,15 +18,8 @@ public class Main {
         programador1.lenguaje = sc.nextLine();
 
 
-
         /* Output */
-        System.out.println(programador1);
-
-
-
-
-
-
+        System.out.println(programador1.toString());
 
 
     }
