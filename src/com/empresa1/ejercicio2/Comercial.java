@@ -1,7 +1,7 @@
 package com.empresa1.ejercicio2;
 
 public class Comercial {
-    String nombre;
+    public String nombre;
     String idioma;
 
     @Override
